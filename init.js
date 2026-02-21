@@ -130,9 +130,13 @@ plugin.onLangLoaded = function() {
            plugin.tempFunc = theWebUI.tables.trt.obj.refreshRows;
           theWebUI.tables.trt.obj.refreshRows = function(height, fromScroll){
                plugin.tempFunc.call(theWebUI.tables.trt.obj, height, fromScroll);
+               // Total ratio column
                theWebUI.setRatioColors(".stable-List-col-6");
+                // Weekly ratio column
                theWebUI.setRatioColors(".stable-List-col-24");
+               // Monthly ratio column
                theWebUI.setRatioColors(".stable-List-col-25");
+                // Daily ratio column
                theWebUI.setRatioColors(".stable-List-col-26");
             };
             if(settings){
