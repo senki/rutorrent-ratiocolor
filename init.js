@@ -137,7 +137,7 @@ plugin.onLangLoaded = function() {
                // Monthly ratio column
                theWebUI.setRatioColors(".stable-List-col-25");
                 // Daily ratio column
-               theWebUI.setRatioColors(".stable-List-col-26");
+               theWebUI.setRatioColors(".stable-List-col-23");
             };
             if(settings){
                 rcSettingsDiv = $('<div>').attr("id","st_ratiocolor");
